@@ -1,0 +1,38 @@
+<div>
+  data from request:
+  <p>
+    {{ data | json }}
+  </p>
+</div>
+<div>
+  error from request:
+  <p>
+    {{ error | json }}
+  </p>
+</div>
+
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <div>
+    <input
+      type="text"
+      name="name"
+      ngModel
+      required
+      minlength="3"
+      placeholder="name"
+    />
+  </div>
+  <br />
+  <div>
+    <input
+      type="email"
+      email
+      name="email"
+      ngModel
+      required
+      placeholder="email"
+    />
+  </div>
+  <br />
+  <button type="submit">send user</button>
+</form>
