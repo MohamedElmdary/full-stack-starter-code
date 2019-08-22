@@ -3,6 +3,9 @@
 - angular-front
   - angular.json (line: 20)
   - app.module.ts (line: 9)
+  - added app.service.ts
+  - added User.interface.ts
+  - added FormsModule (check app.component.html)
 - express-back
-  - x
-  - y
+  - read (app.js)
+  - routes
