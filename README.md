@@ -9,3 +9,15 @@
 - express-back
   - read (app.js)
   - routes
+
+### How to use
+
+```
+// angular-front
+$ ng build --prod
+```
+
+```
+// express-back
+$ npm start
+```
